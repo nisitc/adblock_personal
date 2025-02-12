@@ -1,0 +1,27 @@
+! Title: Adblock Filters (personal)
+!! EXCEPTIONS
+@@||apibay.org^$domain=thepiratebay.org
+@@||a.exdynsrv.com^$domain=thepiratebay.org
+@@||forexprostools.com^
+
+!! BLOCKS
+||resett.no^$document
+
+go-manga.com###sticky-bottom > div.sticky-bottom-inside:last-child > a:first-child > img.lazyload
+go-manga.com###content > div.wrapper > div.center_gomangasolo3:nth-child(50) > a > img
+go-manga.com##.center_gomangasolo
+go-manga.com##.center_gomanga
+mangastep.com###content > div.wrapper:last-child > a:nth-child(3) > img
+mangastep.com###content > div.wrapper:last-child > a:first-child > img
+mangastep.com###content > div.wrapper:last-child > a:first-child
+mangastep.com###content > div.wrapper:last-child > a:nth-child(2)
+mangastep.com###content > div.wrapper:last-child > a:nth-child(3)
+mangastep.com###content > div.wrapper:last-child > a:nth-child(4)
+go-manga.com##.sticky-bottom2-inside
+go-manga.com##.sticky-close
+go-manga.com##.floating_content
+go-manga.com###content > div.wrapper > div.center_gomangasolo3:nth-child(46) > a > img
+/pagead.js$domain=d3ward.github.io
+/widget/ads.
+go-manga.com##.center_gomanga3
+go-manga.com##.sticky-bottom-inside .lazyload
